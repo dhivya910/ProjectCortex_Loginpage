@@ -1,0 +1,34 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginform > h1 {
+  font-size: 40px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginform > input {
+  min-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit_button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: white;
+  color: black;
+  font-style: oblique;
+}
